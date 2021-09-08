@@ -10,4 +10,12 @@ class MainActivity : AppCompatActivity() {
 
         supportActionBar?.hide()
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+    }
+
+    override fun onResume() {
+        super.onResume()
+    }
 }
